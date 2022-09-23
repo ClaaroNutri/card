@@ -1,0 +1,68 @@
+body {background-color: black;}
+
+.contenedor {position: relative;
+    border: 1.5px solid rgb(60, 60, 60);
+    width: 320px;
+    height: 530px;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px lightslategray;
+    cursor: pointer;
+    animation-name: desplazamiento;
+    animation-duration: 4s;
+    
+    
+}
+
+
+.contenedor {text-align: center;
+    margin-top: 50px;
+}
+
+@keyframes desplazamiento {
+    from {position: relative;
+    left:0%}
+
+    to {left: 50%;}
+}
+
+
+.atardecer {width: 100%;
+    border-radius: 15px;
+    
+}
+
+.perfil {height: 70px;
+    width: 70px;
+    border-radius: 80px;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: 8px;
+
+}
+
+h6 {color:white;
+padding-left: 9px; 
+padding-bottom: 1px;
+margin: 3px;
+}
+.titulo {text-align: left;}
+
+.linea {background-color: blueviolet;
+    height: 4px;
+    padding-top: 2px;
+
+}
+.parrafo {color: white;
+    text-align: justify;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin: 0%;
+}
+.parrafo :hover {color: violet;}
+
+.see {color: violet;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+}
+.see :hover {color: white;}
